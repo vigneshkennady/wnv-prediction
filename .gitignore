@@ -42,7 +42,7 @@ ENV/
 # Data outputs
 output/
 manual_data/
-*.csv
+#*.csv
 *.xlsx
 *.json
 
