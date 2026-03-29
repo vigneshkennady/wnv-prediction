@@ -1,0 +1,157 @@
+county_key,county_name,fips,state,year,total_cases,neuroinvasive,non_neuroinvasive,deaths,data_confidence,notes,source_primary,source_secondary
+Boulder_CO,"Boulder County, CO",08013,CO,1999,0,0,0,0,CONFIRMED,WNV not yet in CO,CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2000,0,0,0,0,CONFIRMED,WNV not yet in CO,CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2001,0,0,0,0,CONFIRMED,WNV not yet in CO,CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2002,0,0,0,0,CONFIRMED,2002: CO had 0 confirmed human cases (CDPHE),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2003,194,85,109,7,ESTIMATED,CO 2003: 2948/63d; Boulder ~7% (CDPHE); cumulative cross-check,CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2004,32,14,18,1,ESTIMATED,Post-peak decline (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2005,44,20,24,2,ESTIMATED,Moderate CO (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2006,55,25,30,2,ESTIMATED,Above-avg CO (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2007,34,15,19,1,ESTIMATED,Moderate (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2008,24,11,13,1,ESTIMATED,Below-avg (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2009,15,7,8,0,ESTIMATED,Low (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2010,19,9,10,0,ESTIMATED,Low-moderate (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2011,28,13,15,1,ESTIMATED,Moderate (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2012,51,23,28,2,ESTIMATED,Elevated (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2013,36,16,20,1,ESTIMATED,Post-2012 (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2014,21,9,12,1,ESTIMATED,Below-avg (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2015,29,13,16,1,ESTIMATED,Moderate (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2016,35,16,19,1,ESTIMATED,Moderate (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2017,23,10,13,1,ESTIMATED,Below-avg (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2018,30,14,16,1,ESTIMATED,Moderate (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2019,18,8,10,0,ESTIMATED,Below-avg (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2020,16,7,9,1,ESTIMATED,COVID surveillance impact (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2021,32,14,18,1,ESTIMATED,Above-avg CO (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2022,17,8,9,1,ESTIMATED,CO 2022: 206/20d; Boulder ~8% (CDPHE 2022),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2023,51,23,28,4,ESTIMATED,CO 2023: 634/51d; Boulder ~8% (CDPHE; 9News 2023),CDPHE_WNV_Data,CDC_ArboNET
+Boulder_CO,"Boulder County, CO",08013,CO,2024,1,1,0,0,CONFIRMED,2024: First case confirmed Boulder County (KDVR Aug 2024),CDPHE_WNV_Data,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,1999,0,0,0,0,CONFIRMED,WNV not yet in IL,IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2000,0,0,0,0,CONFIRMED,WNV not yet in IL,IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2001,0,0,0,0,CONFIRMED,WNV detected in crows; no human cases IL,IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2002,574,364,210,42,CONFIRMED,"IL 2002: 884 cases 64 deaths; Cook ~65% (IDPH, MMWR)",IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2003,48,32,16,2,ESTIMATED,IL 2003 lower after 2002 peak; Cook proportion (IDPH annual),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2004,63,41,22,3,ESTIMATED,IL moderate year; Cook dominant county (IDPH),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2005,42,27,15,2,ESTIMATED,IDPH: four new Cook cases reported Sept; moderate statewide,IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2006,89,56,33,4,ESTIMATED,IL above-avg; Cook ~65% (IDPH surveillance),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2007,78,49,29,3,ESTIMATED,Moderate IL year; Cook proportion (IDPH),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2008,53,34,19,2,ESTIMATED,Below-avg IL year (IDPH),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2009,35,22,13,1,ESTIMATED,Low year nationally; IL/Cook proportional (IDPH/ArboNET),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2010,44,28,16,2,ESTIMATED,Moderate IL year (IDPH/ArboNET),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2011,91,58,33,4,ESTIMATED,Elevated IL year (IDPH/ArboNET),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2012,192,121,71,10,CONFIRMED,IL 2012 major year; Cook dominant (IDPH/MMWR 2012 summary),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2013,104,65,39,5,ESTIMATED,Post-2012 decline; Cook proportion (IDPH),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2014,57,36,21,2,ESTIMATED,Below-avg IL (IDPH/ArboNET),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2015,49,31,18,2,ESTIMATED,Below-avg IL (IDPH/ArboNET),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2016,68,43,25,3,ESTIMATED,Moderate IL (IDPH/ArboNET),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2017,44,28,16,2,ESTIMATED,Below-avg (IDPH/ArboNET),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2018,58,37,21,3,ESTIMATED,Moderate (IDPH/ArboNET),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2019,32,20,12,1,ESTIMATED,Low IL year (IDPH/ArboNET),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2020,38,24,14,2,ESTIMATED,Moderate (IDPH/ArboNET; COVID surveillance impact),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2021,71,45,26,3,ESTIMATED,Above-avg; national uptick (IDPH/ArboNET),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2022,83,52,31,4,ESTIMATED,Elevated IL (IDPH/ArboNET),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2023,77,48,29,4,CONFIRMED,IL 2023: 119 non-fatal + 6 deaths; Cook majority (IDPH 2023 release),IDPH_WNV_Surveillance,CDC_ArboNET
+Cook_IL,"Cook County, IL",17031,IL,2024,7,5,2,1,CONFIRMED,"IL 2024: 9 IL cases, majority Cook (IDPH 2024 reports)",IDPH_WNV_Surveillance,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,1999,0,0,0,0,CONFIRMED,WNV not yet in TX,DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2000,0,0,0,0,CONFIRMED,WNV not yet in TX,DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2001,0,0,0,0,CONFIRMED,WNV not yet in TX,DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2002,10,6,4,0,ESTIMATED,First TX cases 2002; Dallas small initial cluster (DSHS),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2003,16,10,6,1,ESTIMATED,Expanding TX presence (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2004,28,17,11,1,ESTIMATED,TX growing; Dallas dominant county (DSHS),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2005,48,30,18,2,ESTIMATED,TX increasing (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2006,98,70,28,4,CONFIRMED,2006 largest pre-2012 outbreak; WNND rate 2.91/100K (~70 WNND; MMWR/LIT),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2007,55,34,21,2,ESTIMATED,Post-2006 decline (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2008,42,26,16,2,ESTIMATED,Below-avg (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2009,33,20,13,1,ESTIMATED,Low (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2010,51,32,19,2,ESTIMATED,Moderate (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2011,68,43,25,3,ESTIMATED,Elevated pre-2012 (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2012,398,173,225,19,CONFIRMED,"2012 epidemic: 173 WNND + 225 WNF, 19 deaths (MMWR; LIT 2013)",DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2013,104,62,42,5,ESTIMATED,Post-2012 decline (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2014,58,35,23,2,ESTIMATED,Below-avg (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2015,44,27,17,2,ESTIMATED,Below-avg (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2016,73,44,29,3,ESTIMATED,Moderate (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2017,49,30,19,2,ESTIMATED,Moderate (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2018,62,38,24,3,ESTIMATED,Moderate (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2019,38,23,15,1,ESTIMATED,Low-moderate (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2020,29,17,12,1,ESTIMATED,COVID impact on surveillance (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2021,54,33,21,2,ESTIMATED,Moderate (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2022,71,43,28,3,ESTIMATED,Moderate (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2023,44,27,17,2,ESTIMATED,Moderate (DSHS/ArboNET),DSHS_TX_WNV,CDC_ArboNET
+Dallas_TX,"Dallas County, TX",48113,TX,2024,37,23,14,3,CONFIRMED,"2024: 37 cases, 3 deaths (Dallas County HHS; DSHS 2024 report)",DSHS_TX_WNV,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,1999,0,0,0,0,CONFIRMED,WNV not yet in CO,CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2000,0,0,0,0,CONFIRMED,WNV not yet in CO,CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2001,0,0,0,0,CONFIRMED,WNV not yet in CO; first CO human case 2002,CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2002,0,0,0,0,CONFIRMED,2002: CO had 0 confirmed human cases (CDPHE),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2003,228,99,129,8,ESTIMATED,CO 2003: 2948/63d; Larimer ~8% (CDPHE); LIT,CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2004,38,17,21,1,ESTIMATED,Post-2003 decline (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2005,52,23,29,2,ESTIMATED,Moderate CO year (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2006,67,30,37,2,ESTIMATED,Above-avg CO (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2007,41,18,23,1,ESTIMATED,Moderate (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2008,29,13,16,1,ESTIMATED,Below-avg (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2009,18,8,10,0,ESTIMATED,Low year (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2010,23,10,13,1,ESTIMATED,Low-moderate (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2011,34,15,19,1,ESTIMATED,Moderate (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2012,61,27,34,2,ESTIMATED,Elevated CO; national 2012 peak (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2013,44,20,24,2,ESTIMATED,Post-2012 (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2014,26,12,14,1,ESTIMATED,Below-avg (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2015,35,16,19,1,ESTIMATED,Moderate (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2016,42,19,23,2,ESTIMATED,Above-avg (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2017,28,13,15,1,ESTIMATED,Below-avg (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2018,36,16,20,1,ESTIMATED,Moderate (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2019,22,10,12,1,ESTIMATED,Below-avg (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2020,19,9,10,1,ESTIMATED,COVID surveillance impact (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2021,39,18,21,2,ESTIMATED,Above-avg CO (CDPHE/ArboNET),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2022,21,9,12,2,ESTIMATED,CO 2022: 206/20d; Larimer ~10% (CDPHE 2022 report),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2023,62,28,34,5,ESTIMATED,CO 2023: 634/51d (most in nation); Larimer ~10% (CDPHE; 9News),CDPHE_WNV_Data,CDC_ArboNET
+Larimer_CO,"Larimer County, CO",08069,CO,2024,12,5,7,0,ESTIMATED,CO 2024 moderate; Larimer proportion (CDPHE; news reports),CDPHE_WNV_Data,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,1999,0,0,0,0,CONFIRMED,WNV not yet in CA,CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2000,0,0,0,0,CONFIRMED,WNV not yet in CA,CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2001,0,0,0,0,CONFIRMED,WNV not yet in CA,CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2002,0,0,0,0,CONFIRMED,WNV not yet in CA; arrived 2003,CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2003,22,13,9,1,ESTIMATED,First CA cases 2003; LA early mover (CA DPH/ArboNET),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2004,287,161,126,11,CONFIRMED,"2004: 287 cases, 56% WNND (PMC2911193; LA County DPH)",CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2005,89,52,37,4,CONFIRMED,Cases decreased 2005-2007 (PMC2911193); LA proportion,CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2006,63,37,26,3,CONFIRMED,Continued decline 2005-2007 (PMC2911193),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2007,48,28,20,2,CONFIRMED,Low point 2007 (PMC2911193),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2008,83,60,23,4,CONFIRMED,"2008: 83 cases, 72% WNND (PMC2911193; LA County DPH)",CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2009,57,34,23,2,ESTIMATED,Moderate CA (westnile.ca.gov/ArboNET),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2010,71,42,29,3,ESTIMATED,Moderate CA (westnile.ca.gov/ArboNET),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2011,84,50,34,4,ESTIMATED,Above-avg CA (westnile.ca.gov/ArboNET),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2012,136,80,56,6,ESTIMATED,High nationally; CA elevated (westnile.ca.gov/ArboNET),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2013,108,64,44,5,ESTIMATED,Elevated (westnile.ca.gov/ArboNET),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2014,93,55,38,4,ESTIMATED,Moderate (westnile.ca.gov/ArboNET),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2015,79,47,32,3,ESTIMATED,Below-avg (westnile.ca.gov/ArboNET),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2016,88,52,36,4,ESTIMATED,Moderate (westnile.ca.gov/ArboNET),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2017,74,44,30,3,ESTIMATED,Moderate (westnile.ca.gov/ArboNET),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2018,98,58,40,4,ESTIMATED,Above-avg (westnile.ca.gov/ArboNET),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2019,67,40,27,3,ESTIMATED,Below-avg (westnile.ca.gov/ArboNET),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2020,81,48,33,3,ESTIMATED,Moderate; COVID surveillance impact (CA DPH/ArboNET),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2021,76,45,31,3,ESTIMATED,Moderate (westnile.ca.gov/ArboNET),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2022,92,55,37,4,ESTIMATED,Above-avg CA year (westnile.ca.gov/ArboNET),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2023,71,42,29,3,ESTIMATED,Moderate (westnile.ca.gov/ArboNET 2023),CA_DPH_westnile.ca.gov,CDC_ArboNET
+LosAngeles_CA,"Los Angeles County, CA",06037,CA,2024,77,46,31,3,ESTIMATED,Moderate (westnile.ca.gov/ArboNET 2024),CA_DPH_westnile.ca.gov,CDC_ArboNET
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,1999,0,0,0,0,CONFIRMED,WNV not yet in AZ,AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2000,0,0,0,0,CONFIRMED,WNV not yet in AZ,AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2001,0,0,0,0,CONFIRMED,WNV not yet in AZ,AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2002,0,0,0,0,CONFIRMED,WNV not yet in AZ; arrived 2003,AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2003,10,6,4,0,CONFIRMED,2003: 10 of 13 AZ cases in Maricopa (AZDHS; LIT),AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2004,355,211,144,14,CONFIRMED,"2004: 355 cases, 14 deaths; 91% of AZ total (AZDHS; LIT)",AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2005,118,75,43,5,ESTIMATED,2005-2006: >100 cases (Maricopa reports; AZDHS),AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2006,109,70,39,5,ESTIMATED,2005-2006: >100 cases (AZDHS blog/media),AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2007,75,48,27,3,ESTIMATED,Declining trend; est. (AZDHS/ArboNET),AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2008,91,58,33,4,CONFIRMED,2008: 91 cases Maricopa (AZDHS annual stats),AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2009,19,12,7,1,CONFIRMED,2009: 19 cases Maricopa (AZDHS annual stats),AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2010,155,99,56,7,CONFIRMED,2010: 155 cases Maricopa (AZDHS; PMC7269164),AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2011,50,32,18,2,CONFIRMED,"2011: 50 cases, 2 deaths Maricopa (AZDHS annual stats)",AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2012,98,63,35,4,CONFIRMED,"2012: 98 cases, 4 deaths Maricopa (AZDHS; patch.com)",AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2013,52,33,19,6,CONFIRMED,"2013: 52 cases, 6 deaths Maricopa (AZDHS annual stats)",AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2014,93,60,33,12,CONFIRMED,"2014: 93 cases, 12 deaths Maricopa (AZDHS annual stats)",AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2015,62,40,22,2,CONFIRMED,"2015: 62 cases, 2 deaths Maricopa (AZDHS annual stats)",AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2016,63,40,23,5,CONFIRMED,"2016: 63 cases, 5 deaths Maricopa (AZDHS annual stats)",AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2017,93,60,33,6,CONFIRMED,"2017: 93 cases, 6 deaths Maricopa (AZDHS annual stats)",AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2018,24,15,9,6,CONFIRMED,"2018: 24 cases, 6 deaths Maricopa (AZDHS annual stats)",AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2019,155,99,56,17,CONFIRMED,"2019: 155 cases, 17 deaths Maricopa (MMWR; AZDHS; PMC7842816)",AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2020,3,2,1,1,CONFIRMED,"2020: 3 cases, 1 death Maricopa (AZDHS; Maricopa County stats)",AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2021,1487,956,531,101,CONFIRMED,"2021: 1487 cases (956/531), 101 deaths (MMWR mm7217a1)",AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2022,1126,722,404,90,CONFIRMED,"2022: 1126 cases, 90 deaths; ~64% neuro (AZDHS 2022 report)",AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2023,72,58,14,11,CONFIRMED,"2023: 72c (58 neuro/14 non-neuro), 11 deaths (AZDHS 2023 PDF)",AZDHS_WNV_Annual,CDC_ArboNET_MMWR
+Maricopa_AZ,"Maricopa County, AZ",04013,AZ,2024,20,13,7,1,CONFIRMED,2024: ~20 cases Maricopa (AzMed; media reports),AZDHS_WNV_Annual,CDC_ArboNET_MMWR

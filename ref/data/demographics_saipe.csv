@@ -1,0 +1,145 @@
+county_key,county_name,fips,year,saipe_median_income,saipe_poverty_rate,saipe_poverty_count
+Larimer_CO,"Larimer County, CO",08069,2000,49758.0,7.5,18923.0
+Larimer_CO,"Larimer County, CO",08069,2001,49168.0,7.4,19080.0
+Larimer_CO,"Larimer County, CO",08069,2002,49638.0,8.4,21952.0
+Larimer_CO,"Larimer County, CO",08069,2003,50275.0,9.3,24558.0
+Larimer_CO,"Larimer County, CO",08069,2004,50911.0,9.8,26041.0
+Larimer_CO,"Larimer County, CO",08069,2005,49188.0,11.5,30264.0
+Larimer_CO,"Larimer County, CO",08069,2006,54241.0,12.1,32732.0
+Larimer_CO,"Larimer County, CO",08069,2007,52968.0,12.2,34154.0
+Larimer_CO,"Larimer County, CO",08069,2008,56701.0,11.6,33125.0
+Larimer_CO,"Larimer County, CO",08069,2009,56281.0,14.7,42850.0
+Larimer_CO,"Larimer County, CO",08069,2010,54739.0,13.6,39772.0
+Larimer_CO,"Larimer County, CO",08069,2011,55501.0,13.8,41155.0
+Larimer_CO,"Larimer County, CO",08069,2012,56132.0,13.7,41513.0
+Larimer_CO,"Larimer County, CO",08069,2013,59337.0,13.8,42547.0
+Larimer_CO,"Larimer County, CO",08069,2014,57659.0,12.8,40447.0
+Larimer_CO,"Larimer County, CO",08069,2015,64935.0,12.2,39648.0
+Larimer_CO,"Larimer County, CO",08069,2016,66561.0,11.2,37023.0
+Larimer_CO,"Larimer County, CO",08069,2017,69443.0,11.0,36954.0
+Larimer_CO,"Larimer County, CO",08069,2018,71306.0,10.5,36054.0
+Larimer_CO,"Larimer County, CO",08069,2019,75332.0,10.3,35894.0
+Larimer_CO,"Larimer County, CO",08069,2020,80344.0,9.9,34579.0
+Larimer_CO,"Larimer County, CO",08069,2021,78681.0,11.2,39476.0
+Larimer_CO,"Larimer County, CO",08069,2022,88338.0,11.0,39357.0
+Larimer_CO,"Larimer County, CO",08069,2023,88519.0,10.2,36698.0
+Boulder_CO,"Boulder County, CO",08013,2000,58601.0,7.8,22770.0
+Boulder_CO,"Boulder County, CO",08013,2001,57079.0,7.6,20489.0
+Boulder_CO,"Boulder County, CO",08013,2002,55810.0,8.2,22244.0
+Boulder_CO,"Boulder County, CO",08013,2003,57112.0,9.5,25866.0
+Boulder_CO,"Boulder County, CO",08013,2004,57908.0,9.8,26824.0
+Boulder_CO,"Boulder County, CO",08013,2005,58334.0,11.2,30507.0
+Boulder_CO,"Boulder County, CO",08013,2006,62322.0,11.1,30429.0
+Boulder_CO,"Boulder County, CO",08013,2007,64299.0,12.1,34186.0
+Boulder_CO,"Boulder County, CO",08013,2008,66760.0,10.3,29232.0
+Boulder_CO,"Boulder County, CO",08013,2009,63757.0,12.9,37975.0
+Boulder_CO,"Boulder County, CO",08013,2010,62215.0,13.6,39097.0
+Boulder_CO,"Boulder County, CO",08013,2011,68101.0,13.8,40026.0
+Boulder_CO,"Boulder County, CO",08013,2012,66894.0,14.2,41787.0
+Boulder_CO,"Boulder County, CO",08013,2013,71405.0,13.5,40438.0
+Boulder_CO,"Boulder County, CO",08013,2014,71546.0,13.3,40299.0
+Boulder_CO,"Boulder County, CO",08013,2015,72392.0,12.3,38046.0
+Boulder_CO,"Boulder County, CO",08013,2016,74772.0,10.8,33749.0
+Boulder_CO,"Boulder County, CO",08013,2017,80701.0,12.6,39084.0
+Boulder_CO,"Boulder County, CO",08013,2018,83591.0,9.7,30699.0
+Boulder_CO,"Boulder County, CO",08013,2019,88341.0,10.7,33965.0
+Boulder_CO,"Boulder County, CO",08013,2020,88289.0,9.5,30205.0
+Boulder_CO,"Boulder County, CO",08013,2021,90327.0,10.7,34103.0
+Boulder_CO,"Boulder County, CO",08013,2022,96584.0,11.8,37074.0
+Boulder_CO,"Boulder County, CO",08013,2023,97170.0,11.0,34478.0
+Dallas_TX,"Dallas County, TX",48113,2000,43550.0,12.0,268946.0
+Dallas_TX,"Dallas County, TX",48113,2001,42421.0,13.2,294323.0
+Dallas_TX,"Dallas County, TX",48113,2002,41271.0,14.8,333128.0
+Dallas_TX,"Dallas County, TX",48113,2003,41256.0,16.8,380616.0
+Dallas_TX,"Dallas County, TX",48113,2004,41947.0,17.0,385990.0
+Dallas_TX,"Dallas County, TX",48113,2005,42791.0,16.9,381322.0
+Dallas_TX,"Dallas County, TX",48113,2006,44894.0,16.5,380261.0
+Dallas_TX,"Dallas County, TX",48113,2007,46468.0,16.9,393765.0
+Dallas_TX,"Dallas County, TX",48113,2008,47155.0,17.3,409612.0
+Dallas_TX,"Dallas County, TX",48113,2009,46044.0,18.7,450082.0
+Dallas_TX,"Dallas County, TX",48113,2010,46909.0,19.0,446466.0
+Dallas_TX,"Dallas County, TX",48113,2011,47335.0,20.0,475446.0
+Dallas_TX,"Dallas County, TX",48113,2012,47343.0,19.3,466855.0
+Dallas_TX,"Dallas County, TX",48113,2013,47902.0,19.5,477557.0
+Dallas_TX,"Dallas County, TX",48113,2014,50118.0,19.3,480160.0
+Dallas_TX,"Dallas County, TX",48113,2015,51824.0,17.9,451795.0
+Dallas_TX,"Dallas County, TX",48113,2016,54429.0,16.3,413956.0
+Dallas_TX,"Dallas County, TX",48113,2017,56732.0,14.8,382477.0
+Dallas_TX,"Dallas County, TX",48113,2018,59838.0,14.2,368310.0
+Dallas_TX,"Dallas County, TX",48113,2019,61807.0,14.0,363567.0
+Dallas_TX,"Dallas County, TX",48113,2020,65770.0,13.7,357084.0
+Dallas_TX,"Dallas County, TX",48113,2021,63549.0,14.4,368709.0
+Dallas_TX,"Dallas County, TX",48113,2022,70871.0,14.2,364132.0
+Dallas_TX,"Dallas County, TX",48113,2023,74352.0,13.8,354670.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2000,47024.0,10.2,322120.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2001,45921.0,11.1,362057.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2002,46038.0,11.9,400631.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2003,46376.0,12.8,441835.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2004,48304.0,13.3,479545.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2005,48752.0,12.6,450439.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2006,52522.0,12.5,464168.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2007,54733.0,12.9,495505.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2008,56511.0,13.4,521208.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2009,53284.0,15.1,599393.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2010,50424.0,16.6,625090.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2011,50785.0,17.4,665193.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2012,51442.0,17.4,675704.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2013,52066.0,17.6,696086.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2014,53929.0,17.1,687643.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2015,56017.0,16.3,667637.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2016,58742.0,15.0,624923.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2017,62221.0,13.5,570402.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2018,65234.0,12.3,535183.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2019,68634.0,12.2,539670.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2020,71799.0,11.6,520797.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2021,76230.0,11.3,502224.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2022,83668.0,10.9,487571.0
+Maricopa_AZ,"Maricopa County, AZ",04013,2023,86973.0,11.1,498844.0
+Cook_IL,"Cook County, IL",17031,2000,45239.0,12.3,655740.0
+Cook_IL,"Cook County, IL",17031,2001,43569.0,12.6,667981.0
+Cook_IL,"Cook County, IL",17031,2002,42863.0,14.5,769079.0
+Cook_IL,"Cook County, IL",17031,2003,42723.0,14.6,767945.0
+Cook_IL,"Cook County, IL",17031,2004,43584.0,15.2,798672.0
+Cook_IL,"Cook County, IL",17031,2005,48919.0,15.0,780189.0
+Cook_IL,"Cook County, IL",17031,2006,50682.0,15.4,798833.0
+Cook_IL,"Cook County, IL",17031,2007,52554.0,14.6,759038.0
+Cook_IL,"Cook County, IL",17031,2008,54559.0,14.8,767182.0
+Cook_IL,"Cook County, IL",17031,2009,52516.0,16.0,828626.0
+Cook_IL,"Cook County, IL",17031,2010,51457.0,16.8,858392.0
+Cook_IL,"Cook County, IL",17031,2011,50806.0,17.8,912067.0
+Cook_IL,"Cook County, IL",17031,2012,52160.0,18.0,926826.0
+Cook_IL,"Cook County, IL",17031,2013,53795.0,17.8,918295.0
+Cook_IL,"Cook County, IL",17031,2014,55058.0,17.1,883001.0
+Cook_IL,"Cook County, IL",17031,2015,56841.0,16.2,833241.0
+Cook_IL,"Cook County, IL",17031,2016,60025.0,15.0,770091.0
+Cook_IL,"Cook County, IL",17031,2017,61401.0,14.6,746194.0
+Cook_IL,"Cook County, IL",17031,2018,63347.0,13.8,701869.0
+Cook_IL,"Cook County, IL",17031,2019,69375.0,13.0,659687.0
+Cook_IL,"Cook County, IL",17031,2020,71611.0,12.9,646192.0
+Cook_IL,"Cook County, IL",17031,2021,72063.0,13.8,703874.0
+Cook_IL,"Cook County, IL",17031,2022,76614.0,13.7,688627.0
+Cook_IL,"Cook County, IL",17031,2023,80547.0,13.2,662898.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2000,42045.0,15.9,1513575.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2001,41573.0,16.3,1571077.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2002,41506.0,17.3,1683869.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2003,41544.0,17.6,1729767.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2004,43518.0,16.7,1640167.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2005,48166.0,16.2,1574523.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2006,51279.0,15.4,1502651.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2007,53494.0,14.6,1423245.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2008,55452.0,15.3,1482051.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2009,54375.0,16.0,1552196.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2010,52595.0,17.6,1699264.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2011,52239.0,18.4,1788681.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2012,52929.0,19.1,1873522.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2013,54443.0,19.0,1872964.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2014,55686.0,18.7,1863025.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2015,59045.0,16.7,1675802.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2016,61308.0,16.3,1629450.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2017,64912.0,14.9,1490853.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2018,67986.0,14.2,1409155.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2019,72721.0,13.4,1319242.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2020,75624.0,13.2,1289368.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2021,77356.0,14.1,1365808.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2022,82455.0,13.9,1328547.0
+LosAngeles_CA,"Los Angeles County, CA",06037,2023,86499.0,13.7,1299957.0
