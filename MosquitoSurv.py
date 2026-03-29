@@ -995,6 +995,16 @@ ACCESS_CHECKS: dict = {
         "params": {},
     },
 
+    "dshs_tx_reports": {
+        "label":  "DSHS TX — Dallas County arbovirus PDF reports",
+        "url":    DSHS_REPORTS_URL,
+        "params": {},
+    },
+    "maricopa_public": {
+        "label":  "Maricopa County — Vector Control public surveillance page",
+        "url":    "https://www.maricopa.gov/1094/Vector-Control",
+        "params": {},
+    },
     "cdc_arbonet": {
         "label":  "CDC ArboNET — all-county annual backstop",
         "url":    CDC_ARBONET_COUNTY_URL,
@@ -1049,8 +1059,13 @@ def run_preflight() -> dict:
 
     print()
     print("  Token status:")
-    print(f"    VECTORSURV_TOKEN  : {'SET' if VECTORSURV_TOKEN  else 'NOT SET — Maricopa will be empty'}")
-    print(f"    CHICAGO_APP_TOKEN : {'SET' if CHICAGO_APP_TOKEN else 'not set  (optional, higher rate limit)'}")
+    print(f"    VECTORSURV_TOKEN  : {'SET' if VECTORSURV_TOKEN  else 'NOT SET — Maricopa API disabled; using manual_data/maricopa_az/ fallback'}")
+    print(f"    CHICAGO_APP_TOKEN : {'SET' if CHICAGO_APP_TOKEN else 'not set  (optional — raises Chicago rate limit)'}")
+    print()
+    print("  Manual-data fallback directories (place CSV/Excel files here):")
+    print("    ./manual_data/co_cdphe/     <- CDPHE CO annual files  (Larimer + Boulder)")
+    print("    ./manual_data/dallas_tx/    <- Dallas TX supplemental CSVs")
+    print("    ./manual_data/maricopa_az/  <- Maricopa AZ CSVs (when no VectorSurv token)")
     print()
 
     viable = [k for k, v in results.items() if v]
@@ -1093,22 +1108,71 @@ def main() -> None:
         if not agg.empty:   all_agg.append(agg)
         if not pools.empty: all_pools.append(pools)
 
-    # ── Source C: Maricopa / VectorSurv ──────────────────────────────────
+    # ── Source C: Maricopa / VectorSurv (API) or manual CSV fallback ─────
+    log.info("\n[Step 3] Maricopa County AZ")
     if access.get("vectorsurv_api"):
-        log.info("\n[Step 3] Maricopa County AZ — VectorSurv API")
+        log.info("  Using VectorSurv REST API ...")
         agg, pools = fetch_maricopa_vectorsurv()
         if not agg.empty:   all_agg.append(agg)
         if not pools.empty: all_pools.append(pools)
     else:
-        log.info("\n[Step 3] Maricopa County AZ — SKIPPED (no token)")
+        log.info("  VectorSurv token not set — checking manual_data/maricopa_az/ ...")
+
+    # Manual fallback: CSV/Excel files placed in ./manual_data/maricopa_az/
+    # Download Maricopa surveillance data from:
+    #   https://www.maricopa.gov/1094/Vector-Control  (weekly PDF/Excel reports)
+    #   https://vectorsurv.org/  (requires free agency account)
+    maricopa_manual = Path("./manual_data/maricopa_az")
+    if maricopa_manual.exists():
+        for f in sorted(maricopa_manual.glob("*.csv")):
+            try:
+                df = pd.read_csv(f)
+                df["county_key"]  = "Maricopa_AZ"
+                df["county_name"] = "Maricopa County, AZ"
+                df["fips"]        = "04013"
+                df["source"]      = f"Maricopa_manual_{f.stem}"
+                all_agg.append(df)
+                log.info("  [Maricopa manual] Loaded %s (%d rows)", f.name, len(df))
+            except Exception as exc:
+                log.warning("  [Maricopa manual] Failed %s: %s", f.name, exc)
+        for f in sorted(maricopa_manual.glob("*.xlsx")):
+            try:
+                df = pd.read_excel(f)
+                df["county_key"]  = "Maricopa_AZ"
+                df["county_name"] = "Maricopa County, AZ"
+                df["fips"]        = "04013"
+                df["source"]      = f"Maricopa_manual_{f.stem}"
+                all_agg.append(df)
+                log.info("  [Maricopa manual] Loaded %s (%d rows)", f.name, len(df))
+            except Exception as exc:
+                log.warning("  [Maricopa manual] Failed %s: %s", f.name, exc)
+    else:
+        log.info("  No manual_data/maricopa_az/ found — Maricopa data will come from CDC ArboNET backstop")
 
     # ── Source D: Colorado / CDPHE ────────────────────────────────────────
     log.info("\n[Step 4] Larimer + Boulder CO — CDPHE")
     df_co = fetch_colorado_cdphe()
     if not df_co.empty: all_agg.append(df_co)
 
-    # ── Source E: Dallas — manual files only (PDF pull done separately) ─────
-    log.info("\n[Step 5] Dallas County TX — loading from manual_data/dallas_tx/")
+    # ── Source E: Dallas TX — DSHS weekly PDF scraper + manual CSV fallback ─
+    log.info("\n[Step 5] Dallas County TX")
+
+    # 5a. Programmatic DSHS PDF scraper (primary path)
+    if access.get("dshs_tx_reports"):
+        log.info("  Scraping DSHS weekly arbovirus PDF reports ...")
+        df_dallas = fetch_dallas_dshs(start_year=START_YEAR, end_year=END_YEAR)
+        if not df_dallas.empty:
+            all_agg.append(df_dallas)
+            log.info("  [Dallas/DSHS] %d records collected via PDF scraper", len(df_dallas))
+        else:
+            log.warning("  [Dallas/DSHS] PDF scraper returned no records")
+    else:
+        log.info("  DSHS report index unreachable — falling back to manual files only")
+
+    # 5b. Manual CSV fallback (place any Dallas CSVs in ./manual_data/dallas_tx/)
+    #     Download directly from:
+    #       https://www.dallascounty.org/departments/dchhs/data-reports/arbovirus-surveillance.php
+    #       or email wnv@dshs.texas.gov for county-level historical CSV
     manual_dir = Path("./manual_data/dallas_tx")
     if manual_dir.exists():
         for f in sorted(manual_dir.glob("*.csv")):
@@ -1119,12 +1183,20 @@ def main() -> None:
                 df["fips"]        = "48113"
                 df["source"]      = f"Dallas_manual_{f.stem}"
                 all_agg.append(df)
-                log.info("  Loaded %s (%d rows)", f.name, len(df))
+                log.info("  [Dallas manual] Loaded %s (%d rows)", f.name, len(df))
             except Exception as exc:
-                log.warning("  Failed to load %s: %s", f.name, exc)
-    else:
-        log.info("  No manual_data/dallas_tx/ directory found — skipping Dallas")
-        log.info("  Place dallas CSV file(s) there and re-run to include Dallas data")
+                log.warning("  [Dallas manual] Failed to load %s: %s", f.name, exc)
+        for f in sorted(manual_dir.glob("*.xlsx")):
+            try:
+                df = pd.read_excel(f)
+                df["county_key"]  = "Dallas_TX"
+                df["county_name"] = "Dallas County, TX"
+                df["fips"]        = "48113"
+                df["source"]      = f"Dallas_manual_{f.stem}"
+                all_agg.append(df)
+                log.info("  [Dallas manual] Loaded %s (%d rows)", f.name, len(df))
+            except Exception as exc:
+                log.warning("  [Dallas manual] Failed to load %s: %s", f.name, exc)
 
     # ── Source F: CDC ArboNET backstop ────────────────────────────────────
     if access.get("cdc_arbonet"):
@@ -1185,9 +1257,29 @@ def main() -> None:
     for col, desc in col_ref:
         print(f"  {col:26s}  {desc}")
     print()
-    print("Manual data fallback directories:")
-    print("  ./manual_data/co_cdphe/   <- CDPHE CO annual Excel/CSV files")
-    print("  ./manual_data/dallas_tx/  <- Dallas County surveillance CSVs")
+    print()
+    print("Per-county data sources and status:")
+    print(f"  Cook_IL        (17031)  Chicago Data Portal Socrata API    — {'OK' if access.get('chicago_api') else 'FAIL/SKIP'}")
+    print(f"  LosAngeles_CA  (06037)  westnile.ca.gov annual CSVs        — {'OK' if access.get('ca_wnv_csv') else 'FAIL/SKIP'}")
+    print(f"  Maricopa_AZ    (04013)  VectorSurv API (token required)    — {'OK' if access.get('vectorsurv_api') else 'SKIP → manual fallback'}")
+    print(f"  Larimer_CO     (08069)  CDPHE HTML + manual_data/co_cdphe/ — {'OK' if access.get('cdphe_co') else 'FAIL/SKIP'}")
+    print(f"  Boulder_CO     (08013)  CDPHE HTML + manual_data/co_cdphe/ — {'OK' if access.get('cdphe_co') else 'FAIL/SKIP'}")
+    print(f"  Dallas_TX      (48113)  DSHS PDF scraper + manual_data/    — {'OK' if access.get('dshs_tx_reports') else 'FAIL → manual fallback'}")
+    print()
+    print("Manual-data fallback directories (place downloaded CSV/Excel files here):")
+    print("  ./manual_data/co_cdphe/     <- CDPHE CO annual Excel/CSV (Larimer + Boulder)")
+    print("                                 Download: https://cdphe.colorado.gov/animal-related-diseases/west-nile-virus/west-nile-virus-data")
+    print("  ./manual_data/dallas_tx/    <- Dallas TX supplemental CSVs")
+    print("                                 Contact: wnv@dshs.texas.gov or")
+    print("                                 https://www.dallascounty.org/departments/dchhs/data-reports/arbovirus-surveillance.php")
+    print("  ./manual_data/maricopa_az/  <- Maricopa AZ CSVs (when VECTORSURV_TOKEN not set)")
+    print("                                 Download: https://www.maricopa.gov/1094/Vector-Control")
+    print("                                 Or register free: https://vectorsurv.org/signup")
+    print()
+    print("To enable VectorSurv API for Maricopa (and optionally other AZ/CA counties):")
+    print("  1. Register free at https://vectorsurv.org/signup")
+    print("  2. Generate token in VectorSurv Gateway → Settings → API Tokens")
+    print("  3. export VECTORSURV_TOKEN=your_token  (then re-run)")
     print("=" * 65)
     print("Done.")
 
